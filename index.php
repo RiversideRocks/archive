@@ -29,7 +29,7 @@ jgs `""`   \  nnh  D_.-'L__nnh
 $router = new \Bramus\Router\Router();
 
 $router->get('/', function() {
-    require "web/home.php";
+    include "web/home.php";
 });
 
 $router->run();
